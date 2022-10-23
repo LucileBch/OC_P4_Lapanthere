@@ -704,12 +704,13 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+/*h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
+*/
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -776,6 +777,9 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .btn-atomic-tangerine {
