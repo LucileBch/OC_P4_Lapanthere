@@ -272,6 +272,21 @@ a:hover {
     margin-top: 80px;
 }
 
+.citation-bloc {
+    padding: 0px 60px;
+}
+
+.citation {
+    font-size: 20px;
+    font-style: italic;
+    color: #575757;
+}
+
+.citation-nom {
+    font-size: 18px;
+    font-weight: 200;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -705,12 +720,12 @@ p {
     margin: auto auto auto auto;
 }
 
-/*h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-*/
 h2 {
+    color: #555555;
+    font-size: 22px;
+}
+
+h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
