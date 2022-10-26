@@ -547,6 +547,17 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 70%;
+}
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-group{
+    padding: 8px 0;
 }
 
 .scrollToTop {
