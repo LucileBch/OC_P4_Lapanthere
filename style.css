@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+ul {
+    list-style-type: none;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -28,7 +32,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -40,8 +43,8 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .bloc-lg {
@@ -252,6 +255,10 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
+.sr-only{
+    display: none;
+}
+
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
@@ -354,6 +361,11 @@ a:hover {
     font-size: 16px;
 }
 
+.nav-page2{
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -366,6 +378,7 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    display: none;
 }
 
 .navbar-toggle:hover {
@@ -1023,7 +1036,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 40px 0px;
     }
     .bloc-sm,
     .bloc-md {
