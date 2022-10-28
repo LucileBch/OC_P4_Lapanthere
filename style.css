@@ -713,7 +713,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 36px;
 }
 
 .hero-bloc-text-sub {
@@ -843,6 +843,7 @@ h4 {
 
 .row > p {
     color: #FFFFFF;
+    margin: 0 10px;
 }
 
 .btn-atomic-tangerine {
