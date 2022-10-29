@@ -7,10 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-ul {
-    list-style-type: none;
-}
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -401,6 +397,10 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    ul {
+        list-style-type: none;
+    }
+    
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -428,6 +428,7 @@ a:hover {
         float: none;
         display: inline-block;
     }
+    
     .nav-center .site-navigation {
         position: relative;
         width: 100%;
@@ -1023,7 +1024,7 @@ h4 {
     }
     .navbar-collapse {
         padding: 0;
-        overflow-x: hidden;
+        /*overflow-x: hidden;*/
         -webkit-box-shadow: none;
         box-shadow: none;
     }
