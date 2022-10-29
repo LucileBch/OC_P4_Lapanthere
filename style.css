@@ -378,7 +378,6 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
-    display: none;
 }
 
 .navbar-toggle:hover {
@@ -439,6 +438,10 @@ a:hover {
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+    }
+
+    .navbar-toggle {
+        display: none;
     }
 }
 
