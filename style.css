@@ -547,12 +547,12 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    width: 70%;
+    width: 80%;
 }
 
 .form-contact{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 
